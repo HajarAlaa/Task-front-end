@@ -1,0 +1,527 @@
+*{ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    font-size: 16px;
+    box-sizing: border-box;  
+}
+body{
+   margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.container2{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+
+header{
+    background: url("images/header-bg.jpg") no-repeat;
+    background-position: center;
+    
+}
+
+.overlay{
+    background-color: rgba(0,0,0, 0.8);
+    padding-bottom: 60px;
+}
+/* .nav-container{
+    display: inline-block;
+} */
+
+.header {
+    display: inline-block;
+  }
+  .header img{
+    margin-left: -15px;
+    margin-top: 16px;
+    display: inline-block
+    
+}
+
+
+nav {
+    float: right;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 25px;
+margin-left: 20%;
+}
+
+nav a{ 
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    margin-left: 25px;
+}
+
+header .content{
+    width: 50%;
+    color: #fff;
+    /* margin-top: 180px; */
+    display: inline-block;
+
+}
+
+header .content h2,
+header .content h3{
+    text-transform: uppercase;
+    word-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+
+header .content h2 {
+    margin-bottom: -30px;   
+}
+
+header .content h3{
+    font-size: 4rem;
+    margin-bottom: 20px; 
+}
+
+header .content h2,
+header .content p {
+    color: rgb(235, 229, 229);
+}
+
+header .content > button{
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: rgb(249, 183, 0);
+    border-color: rgb(249, 183, 0);
+    padding: 15px 40px;
+}
+
+header .form{
+    float: right;
+    width: 37%;
+    margin-top: 10px;
+    background-color: rgba(34, 70, 117, 0.5);
+    border: 1px solid rgb(105, 104, 104);
+    padding: 20px;
+}
+
+header .form h4{
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+header .form select {
+    width: 90%;
+    padding: 10px 50px 10px 18px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(245, 245, 248);
+       color: rgb(151, 148, 165);
+}
+
+header .form .first {
+    width: 41%;
+    padding: 10px 50px 10px 18px;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+}
+
+header .form .date{
+    width: 40%;
+    padding: 10px 0 10px 18px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+ header .holder {
+    width: 75%;
+    padding: 10px 50px 10px 18px;
+     display: block;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+header .form > button{
+    display: inline-block;
+    width: 92%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color:rgb(249, 183, 0);
+    border-color: rgb(249, 183, 0);
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.section2 .head {
+  text-align: center;
+  
+  margin-top: 30px;
+}
+.head h1{
+  color:rgb(23, 27, 44) ;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+.head h6 {
+  margin-bottom: 20px;
+  color: rgb(197, 200, 208);
+}
+.section2 .middle {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.section2 article {
+  background-color: RGB(237, 237, 247);
+  padding: 30px;
+  border-radius: 15px;
+  width: 25%;
+  margin: 10px;
+}
+.section2 h4 {
+  display: flex;
+  align-items: center;
+  
+}
+.middle p{
+  color:rgb(186, 188, 198);
+  margin-left:10px;
+}
+.container2{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec-3{
+  margin-top: 60px;
+}
+#sec-3 .body{
+  display: flex;
+}
+.body .about1{
+  width: 50%;
+  margin-right: 120px;
+}
+
+.body .about1 img {
+  width: 600px;
+  display: inline-block;
+
+  
+}
+.body .about2 {
+  margin:30px;
+}
+.body .about2 > span {
+  width: 350px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.body .about2 h5 {
+  color: rgb(90, 84, 84);
+    font-weight: bold;
+}
+.body .about2 p {
+  font-size: small;
+  color: rgb(186, 188, 198);
+  margin-bottom: 10px;
+
+}
+.body .about2 button{
+  background-color: rgb(249, 183, 0);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+  border: rgb(236, 188, 29);
+  padding:10px 40px;
+  
+}
+#sec-4{
+  margin-top: 60px;
+}
+.service{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.service > h1{
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color:black
+}
+.service > p{
+  color: rgb(186, 188, 198);
+  margin-bottom: 20px;
+}
+.bookcar{
+  margin-top: 100px;
+
+}
+ .bookcar .box{
+    display: flex;
+}
+#sec-4 .bookcar{
+  display: flex;
+}
+#sec-4 .bookcar .price{
+  width:50%;
+  margin-right: 40px;
+}
+#sec-4 .bookcar .price .head{
+  display:flex;
+  justify-content: space-between;
+
+}
+#sec-4 .bookcar .price .head h3{
+  color:rgb(89, 89,89 );
+  font-size: 1rem;
+  margin-bottom: 20px;
+
+}
+
+#sec-4 .bookcar .price .head .span{
+   display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffbb00;
+}
+#sec-4 .bookcar .price .head .span span{
+  font-size: 1.2rem;
+  color:#ffbb00; ;
+}
+
+#sec-4 .bookcar .price p{
+
+  margin-top: 10px;
+   margin-bottom: 10px;
+ 
+  color:rgb(186, 188, 198);
+}
+
+#sec-4 .bookcar  span{
+  line-height: 1.5;
+  color:rgb(112, 112, 112);
+}
+#sec-4 button {
+    margin-top: 20px;
+    display: block;
+    color: #c9c8c8;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color:  rgb(58, 55, 55);
+    border-color:  rgb(58, 55, 55);
+    padding: 15px 45px;
+}
+#sec-4 .bookcar .img{
+  width:50%;
+  margin-bottom: 70px;
+  padding-left: 70px;
+}
+
+#sec-4 .point{
+  margin-top: 40px;
+    text-align: center;
+}
+#sec-4 .point .dot{
+    background-color:rgb(255, 187, 0) ;
+}
+#sec-4 .dot > span{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: rgb(199, 196, 196);
+    width: 10px;
+    height: 10px;
+}
+
+
+
+#sec-5{
+  margin-top: 70px;
+  background-image: url("images/callaction-bg.jpg");
+  background-position: center;
+  
+}
+#sec-5 .sec-car{
+  background-color: rgba(0,0, 0, 0.7);
+  padding-bottom: 110px;
+}
+#sec-5 .sec-car .support{
+  text-align: center;
+}
+#sec-5 .sec-car .support h1{
+  padding-top: 100px;
+  color: #FFF;
+  font-size: 2rem;
+}
+#sec-5 .sec-car .support p{
+  width:800px;
+  margin:0 auto 20px auto;
+  color:rgb(191, 194, 196);
+}
+#sec-5 .sec-car .support button {
+  
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(240, 174, 6);
+    background-color: transparent;
+    border-color: rgb(240, 174, 6);
+    padding: 10px 40px;
+}
+
+#sec-6{
+  margin-top: -30px;
+  background-color: rgb(250, 249, 255); 
+  padding-bottom: 50px;
+  
+}
+
+#sec-6 .title{
+  text-align: center;
+}
+#sec-6 .title > h1{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color:rgb(32, 32, 31);
+}
+#sec-6 .title > p{
+  width: 700px;
+  margin:0 auto 60px auto;
+  color:rgb(137, 142, 155);
+}
+#sec-6 #view .like{
+  display: flex;
+  justify-content: space-between;
+}
+#sec-6 #view .like .car{
+  width: 20%;
+  margin-right: 20px;
+}
+#sec-6 #view .like .car img{
+  display: block;
+}
+#sec-6 #view .like .car > .date{
+  display: inline-block;
+    margin-top: 20px;
+    padding: 5px 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(126, 126, 118);
+}
+#sec-6 #view .like .car > h4{
+  margin-bottom: 8px;
+  color:rgb(35, 36, 35) ;
+}
+#sec-6 #view .like .car > p{
+  color:rgb(133, 140, 155) ;
+}
+#sec-6 #view .like .icon{
+  background-color:rgb(255, 255, 255); 
+  display: flex;
+  justify-content: space-between;
+}
+  #sec-6 #view .like .icon > .rate{
+  display: flex;
+}
+#sec-6 #view .like .icon > .rate div img{
+  margin-top: 2px;
+  margin-right: 5px;
+  background-color:rgb(14, 13, 13); 
+}
+#sec-6 #view .like .icon div span {
+  font-size: 0.8rem;
+  color:rgb(112, 117, 131) ;
+}
+#sec-7 {
+  margin-top: -25px;
+ background-color: rgb(4, 9, 29);
+    padding-bottom: 40px;
+}
+.content {
+   
+   padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+ .content > div {
+  width: 35%;
+}
+ .content > div h3 {
+  
+  color: rgb(251, 252, 253);
+    font-size: 1.3rem;
+}
+  .content > div p {
+    line-height: 1.5;
+     color: rgb(80, 89, 94);
+}
+
+ .social {
+    margin-right: 30px;
+    
+}
+ .social > span img {
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+.email{
+  width:100%
+}
+
+
+.email .input{
+    display: inline-block;
+    width:66%
+    
+}
+ .email .input input {
+    width: 50%;
+    padding: 10px 20px 10px 7px;
+        display: inline-block;
+
+    background-color: rgb(250, 249, 255);     
+}
+ .button {
+    margin-left: -5px; 
+    display: inline-block;
+}
+  .button .special {
+    background-color: rgb(249, 183, 0);
+    border-color: rgb(249, 183, 0);
+}
+ .button .special > span {
+    color:#FFF;
+    background-color:rgb(249, 183, 0); 
+}
+ .copy {
+    display: flex;
+    justify-content: center;
+    color:  rgb(80, 89, 94);
+    padding-bottom: 20px;
+    
+}
